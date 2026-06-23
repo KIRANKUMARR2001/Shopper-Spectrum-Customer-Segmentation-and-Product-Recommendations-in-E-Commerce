@@ -23,7 +23,7 @@ def load_and_compute_assets():
         
         # 2. Load your clean transactional CSV file directly
         # ⚠️ Make sure the filename below matches your CSV file exactly!
-        df = pd.read_csv('mini_retail_data.csv')
+        df = pd.read_csv('mini_retail_data.xls')
         
         # 3. Build the User-Item matrix live in the background
         user_item = df.pivot_table(
