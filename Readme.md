@@ -4,44 +4,11 @@ Shopper Spectrum is a dual-engine machine learning platform designed to optimize
 
 The entire system is deployed via an interactive, production-ready **Streamlit Web Application** hosted in the cloud.
 
----
+---<img width="1896" height="862" alt="image" src="https://github.com/user-attachments/assets/6b736328-f47a-4a3f-9a70-5fbe7a2f15dd" /><img width="1907" height="870" alt="image" src="https://github.com/user-attachments/assets/ba1c6644-6fe8-4db0-86ed-e20807d2c9d8" />
+
+
 
 ## 🚀 Live Application Architecture
-
-The deployed solution scales complex backend data pipelines and pre-trained statistical matrices into a clean, two-tab dashboard layout:
-              ┌───────────────────────────────┐
-              │ Raw E-Commerce Transactions   │
-              └───────────────┬───────────────┘
-                              │
-                              ▼
-              ┌───────────────────────────────┐
-              │  Data Pre-processing Pipeline │
-              │  (Removes Duplicates & Noise) │
-              └───────────────┬───────────────┘
-                              │
-              ┌───────────────┴───────────────┐
-              │                               │
-              ▼                               ▼
- ┌─────────────────────────┐     ┌─────────────────────────┐
- │  Customer Segmentation  │     │ Product Recommendations │
- │        (RFM)            │     │   (User-Item Matrix)    │
- └────────────┬────────────┘     └────────────┬────────────┘
-              │                               │
-              ▼                               ▼
- ┌─────────────────────────┐     ┌─────────────────────────┐
- │   K-Means Clustering    │     │ Item-Based Collaborative│
- │         (K=4)           │     │   Filtering Pipeline    │
- └────────────┬────────────┘     └────────────┬────────────┘
-              │                               │
-              └───────────────┬───────────────┘
-                              │
-                              ▼
-              ┌───────────────────────────────┐ 
-              │     Interactive Streamlit     │
-              │         Cloud Portal        │
-              └───────────────────────────────┘
-
-              ---
 
 ## 🧠 Core Machine Learning Engines
 
